@@ -1,0 +1,138 @@
+.team-boxed {
+    color: #313437;
+    background-color: #eef4f7;
+}
+
+.team-boxed p {
+    color: #7d8285;
+}
+
+.team-boxed h2 {
+    font-weight: bold;
+    margin-bottom: 40px;
+    padding-top: 40px;
+    color: inherit;
+}
+
+@media (max-width:767px) {
+    .team-boxed h2 {
+        margin-bottom: 25px;
+        padding-top: 25px;
+        font-size: 24px;
+    }
+}
+
+.team-boxed .intro {
+    font-size: 16px;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.team-boxed .intro p {
+    margin-bottom: 0;
+}
+
+.team-boxed .people {
+    padding: 50px 0;
+}
+
+.team-boxed .item {
+    text-align: center;
+}
+
+.team-boxed .item .box {
+    text-align: center;
+    padding: 30px;
+    background-color: #fff;
+    margin-bottom: 30px;
+}
+
+.team-boxed .item .name {
+    font-weight: bold;
+    margin-top: 28px;
+    margin-bottom: 8px;
+    color: inherit;
+}
+
+.team-boxed .item .title {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #d0d0d0;
+    letter-spacing: 2px;
+    font-size: 13px;
+}
+
+.team-boxed .item .description {
+    font-size: 15px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+.team-boxed .item img {
+    max-width: 160px;
+}
+
+.team-boxed .social {
+    font-size: 18px;
+    color: #a2a8ae;
+}
+
+.team-boxed .social a {
+    color: inherit;
+    margin: 0 10px;
+    display: inline-block;
+    opacity: 0.7;
+}
+
+.team-boxed .social a:hover {
+    opacity: 1;
+}
+
+.founder {
+    width: 150px;
+    height: auto;
+    border: solid black 1px;
+}
+
+.bdr{
+    border: solid black 2px;
+    border-radius: 1.5rem;
+    text-align: center;
+}
+
+.social{
+    display: flex;
+    justify-content:space-evenly;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    display: flex;
+    text-align: center;
+    text-decoration: none;
+    justify-content:space-between ;
+}
+  
+  .fa:hover {
+      opacity: 0.7;
+}
+
+.fa-instagram {
+    background: black;
+    color: white;
+    padding: 10px;
+}
+
+.fa-linkedin {
+    background: white;
+    color: black;
+    padding: 10px;
+}
+
+.fa-twitter {
+    background: black;
+    color: white;
+    padding: 10px;
+}
